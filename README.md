@@ -81,7 +81,7 @@ i)Draw a line from the top-left to the bottom-right of the image.
 
 import cv2
 img = cv2.imread("lokesh.JPG")
-res = cv2.line(image, (0, 0), (200, 100, 205), 10)
+res = cv2.line(image, (0, 0),(400,500),(200, 100, 205), 10)
 cv2.imshow('Image Window', res)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
